@@ -1,7 +1,5 @@
-import type React from "react";
+import type React from 'react';
 
 export const App: React.FC = () => {
-  return (
-    <article>123</article>
-  )
-}
+  return <article>123</article>;
+};
