@@ -1,9 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { App } from './views/App'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { App } from './views/App';
+
+import './views/styles/normalize.scss';
+import './views/styles/palette.scss';
+import './views/styles/common.scss';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
   </StrictMode>,
-)
+);

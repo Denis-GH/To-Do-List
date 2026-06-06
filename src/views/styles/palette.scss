@@ -1,0 +1,13 @@
+/* названия цветов брал отсюда - https://coolors.co/[код цвета] */
+
+:root {
+  --color-rich-cerulean: #3f72af;
+  --color-bright-snow: #f9f7f7;
+  --color-deep-space-blue: #112d4e;
+  --color-lavender: #dbe2ef;
+  --color-grey: #7b7b7b;
+
+  --color-main-background: var(--color-rich-cerulean);
+  --color-article-background: var(--color-bright-snow);
+  --color-title: var(--color-deep-space-blue);
+}
