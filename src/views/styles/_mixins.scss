@@ -1,0 +1,12 @@
+@mixin buttonInteraction($hover-opacity: 0.8, $active-scale: 0.9) {
+  @media (hover: hover) {
+    &:hover {
+      opacity: $hover-opacity;
+    }
+  }
+
+  &:active {
+    opacity: $hover-opacity;
+    transform: scale($active-scale);
+  }
+}

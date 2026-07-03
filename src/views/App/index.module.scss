@@ -1,0 +1,16 @@
+.article {
+  background-color: var(--color-article-background);
+  width: calc(100dvw - 40px);
+  max-width: 600px;
+  border-radius: 20px;
+  padding: 20px 55px;
+  margin: 46px 20px;
+
+  &Title {
+    color: var(--color-title);
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 0.26em;
+  }
+}

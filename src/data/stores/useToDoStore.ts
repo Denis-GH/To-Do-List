@@ -15,7 +15,7 @@ type TodoStore = {
 };
 
 export const useToDoStore = create<TodoStore>((set) => ({
-  tasks: [],
+  tasks: [{ id: '12wqe122', title: 'test', createdAt: 123 }],
   createTask: (title) => {
     const newTask = {
       id: generatedId(),
